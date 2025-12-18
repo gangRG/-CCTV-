@@ -1,0 +1,32 @@
+# AI 기반 객체 탐지 및 영상 분석 통합 플랫폼
+# Updated Requirements with Version Compatibility
+
+# Core Dependencies
+streamlit>=1.28.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+ultralytics>=8.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+plotly>=5.15.0
+
+# System Monitoring
+psutil>=5.9.0
+
+# Web Framework (CCTV Backend)
+Flask>=2.3.0
+Flask-CORS>=4.0.0
+Flask-SocketIO>=5.3.0
+python-socketio>=5.9.0
+
+# HTTP Requests (Traffic API)
+requests>=2.31.0
+
+# Additional Utilities
+python-multipart>=0.0.6
